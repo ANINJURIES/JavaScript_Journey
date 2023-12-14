@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <div id="ab">This is is ab</div>
+    <h1 id ="head"> this is head</h1>
+    <div class="rav">this is class</div>
+    <h1 class=" xz">this is class header</h1>
+
+
+    <!-- Text box created -->
+    <input type="text" id="name" required minlength="4" max="8" size="10">
+
+    <!-- for tag get dom manipulation -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      
+
+    <script>
+
+        // ID 
+
+        document.getElementById("ab");   // print dom element
+        document.getElementById("head").style.color = "red";  // print dom element
+
+
+        // Class
+
+        document.getElementsByClassName("rav");
+
+        // get class by dom and color 
+        const collection = document.getElementsByClassName("rav");
+        collection[0].style.backgroundColor = "pink";
+
+        // get by name 
+
+
+        // get element by tag name, here we will use li tag     
+
+        document.getElementsByTagName("li");  // we bring element by tag 
+
+
+       
+        
+    </script>
+    
+</body>
+</html>
+
+<!-- The getElementById() method returns null if the element does not exist. -->
